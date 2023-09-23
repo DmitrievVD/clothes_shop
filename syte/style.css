@@ -261,6 +261,7 @@ nav {
     width: 212px;
     height: 48px;
     border-color: #F26376;
+    background-color: white;
 }
 
 .butn_all_profuct span{
@@ -270,6 +271,82 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width: 1146px) and (min-width: 768px){
+    nav{
+        gap: 25px;
+    }
+
+    .container{
+        max-width: 767px;
+    }
+
+    .main_content{
+        margin-bottom: 0px;
+    }
+
+    .man_main{
+        width: 386px;
+    }
+
+    .title_main_text h1{
+        font-size: 44px;
+        font-weight: 900;
+    }
+
+    .title_main_text h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .color_text{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .offer{
+        gap:19px;
+        padding-bottom: 110px;
+    }
+
+    .offer h3{
+        font-size: 24px;
+    }
+
+    .offer h4{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .card{
+        width: 232px;
+        height: 167px;
+    }
+
+    .accesories{
+        width: 734px;
+        height: 116px;
+    }
+
+    .text_items{
+        gap: 3px;
+    }
+
+    .p_items{
+        margin-bottom: 74px;
+    }
+
+    .items{
+        grid-template-columns: 360px 360px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
 }
 
 
