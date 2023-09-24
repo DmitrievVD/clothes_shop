@@ -127,7 +127,7 @@ nav {
     line-height: 1.2;
     color: white;
     background-image: url("./img/offer_women.svg");
-    background-color: rgba(33, 22, 22, 0.70);;
+    background-color: rgba(33, 22, 22, 0.70);
 }
 
 .man{
@@ -335,7 +335,7 @@ nav {
     }
 
     .p_items{
-        margin-bottom: 74px;
+        margin-bottom: 64px;
     }
 
     .items{
@@ -345,6 +345,71 @@ nav {
 }
 
 @media (max-width: 767px) {
+
+    .container{
+        max-width: 375px;
+    }
+
+    .head-human{
+        display: none;
+    }
+
+    .head-shop{
+        display: none;
+    }
+
+    .man_main{
+        display: none;
+    }
+
+    .main_content{
+        height: 363px;
+    }
+
+    .main-stick{
+        width: 12px;
+        height: 61px;
+    }
+
+    .title_main_text h1{
+        font-size: 38px;
+    }
+
+    .title_main_text h2{
+        font-size: 20px;
+    }
+
+    .color_text{
+        font-size: 20px;
+    }
+
+    .main_content{
+        margin-bottom: 64px;
+    }
+
+    .offer{
+        padding-top: 0;
+        grid-template-columns: 1fr;
+        padding-bottom: 0;
+        margin-bottom: 64px;
+    }
+
+    .card{
+        width: 343px;
+    }
+
+    .accesories{
+        grid-column: 1/1;
+        width: 343px;
+        height: 111px;
+    }
+
+    .items{
+        grid-template-columns: 360px;
+        margin-bottom: 40px;
+    }
+
+
 
 
 }
