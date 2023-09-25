@@ -74,6 +74,7 @@ nav {
     gap: 16px;
 }
 
+
 .title_main_text{
     color: #222;
     font-family: Lato, serif;
@@ -253,7 +254,7 @@ nav {
 .btn_foo{
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 95px;
 }
 
 .butn_all_profuct{
@@ -272,6 +273,176 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
+
+.others {
+    background-color: #222224;
+    padding: 104px;
+}
+.others__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.others__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.others__card img{
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.others__card__title{
+    color: #FBFBFB;
+    font-family: Lato, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.others__card__p{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.subscribe{
+    background: rgba(244, 244, 244, 0.70);
+    height: 448px;
+}
+
+.subscribe__beack{
+    height: 448px;
+    max-width: 767vw;
+    background-image: url("./img/beack_subsribe.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.subscribe__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 330px;
+    padding-top: 97px;
+}
+
+.subscribe__content__feedback{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 360px;
+}
+
+.subscribe__content__feedback p{
+    text-align: center;
+    color: #222224;
+    font-family: Lato, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe__content__feedback .italic{
+    font-style: italic;
+}
+
+.subscribe__content__subscribe__title{
+    color: #222224;
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.subscribe__content__subscribe__p{
+    color: #222224;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+    margin-bottom: 32px;
+}
+
+.subscribe__content__subscribe form{
+    display: flex;
+
+}
+
+.subscribe__content__subscribe input{
+    width: 256px;
+    height: 50px;
+    padding-left: 22px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.subscribe__content__subscribe button{
+    width: 100px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #F16D7F;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+}
+
+.links{
+    background-color: #222224;
+    height: 79px;
+}
+
+.links__content{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brend{
+    color: #FBFBFB;
+    font-family: Lato, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.links__icons{
+    display: flex;
+    gap: 7px;
+}
+
+.links__content a{
+    padding: 8px;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+}
+
+
 
 @media (max-width: 1146px) and (min-width: 768px){
     nav{
