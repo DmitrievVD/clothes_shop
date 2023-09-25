@@ -638,7 +638,7 @@ nav p{
 @media (max-width: 767px) {
 
     .container{
-        max-width: 375px;
+        max-width: 360px;
     }
 
     .head-human{
