@@ -50,7 +50,30 @@ nav {
     align-content: center;
     justify-content: center;
     align-items: center;
+
 }
+
+.cart{
+    position: relative;
+}
+
+nav p{
+    position: absolute;
+    top: -8px;
+    left: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Lato, serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background-color: #F16D7F;
+}
+
 
 .main_content{
     background-color: #F1E4E6;
@@ -114,6 +137,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
 
@@ -223,6 +247,56 @@ nav {
 
 .item img{
     margin-bottom: 25px;
+    position: relative;
+}
+
+.item:hover .hidden{
+    display: block;
+
+}
+
+.hidden{
+    position: absolute;
+    display: none;
+}
+
+.add__cart{
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    background-color: rgba(58, 56, 56, 0.86);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.add__cart button{
+    width: 139px;
+    height: 44px;
+    padding: 10px;
+    background: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+    border-color: #FFFFFF;
+}
+
+.add__cart button img{
+    width: 26px;
+    height: 24px;
+}
+
+.add__cart button p {
+    color: #FFF;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .text_item{
@@ -263,6 +337,15 @@ nav {
     height: 48px;
     border-color: #F26376;
     background-color: white;
+}
+
+.butn_all_profuct:hover{
+    border: none;
+    background-color: #F16D7F;
+}
+
+.butn_all_profuct:hover span{
+    color: #FFF;
 }
 
 .butn_all_profuct span{
@@ -390,6 +473,7 @@ nav {
     border: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    background-color: #E1E1E1;;
 }
 
 .subscribe__content__subscribe button{
@@ -436,10 +520,22 @@ nav {
 }
 
 .links__content a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     padding: 8px;
     width: 15px;
     height: 15px;
     background-color: #FFF;
+
+}
+
+.links__content a:hover{
+    background-color: #F16D7F;
+
+}
+.links__content a:hover svg{
+    fill: #FFFFFF
 }
 
 
@@ -513,6 +609,30 @@ nav {
         grid-template-columns: 360px 360px;
         margin-bottom: 32px;
     }
+
+    .others{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .others__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 48px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .others__card{
+        width: 360px;
+    }
+
+    .subscribe__content{
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -526,6 +646,10 @@ nav {
     }
 
     .head-shop{
+        display: none;
+    }
+
+    nav p {
         display: none;
     }
 
@@ -560,7 +684,7 @@ nav {
 
     .offer{
         padding-top: 0;
-        grid-template-columns: 1fr;
+        grid-template-columns: 343px;
         padding-bottom: 0;
         margin-bottom: 64px;
     }
@@ -580,8 +704,42 @@ nav {
         margin-bottom: 40px;
     }
 
+    .others{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .others__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 48px;
+        justify-content: center;
+        align-content: center;
+    }
 
+    .others__card{
+        width: 360px;
+    }
+
+    .subscribe__content{
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 20px;
+    }
+
+    .subscribe__content__subscribe input {
+        width: 220px;
+    }
+
+    .links{
+        height: 130px;
+    }
+
+    .links__content {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 
 }
 
