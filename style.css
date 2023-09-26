@@ -151,7 +151,7 @@ nav p{
     font-size: 16px;
     line-height: 1.2;
     color: white;
-    background-image: url("img_women.svg");
+    background-image: url("./img/offer_women.svg");
     background-color: rgba(33, 22, 22, 0.70);
 }
 
@@ -162,7 +162,7 @@ nav p{
     justify-content: center;
     height: 260px;
     width: 360px;
-    background-image: url("img_men.svg");
+    background-image: url("./img/offer_men.svg");
     font-size: 16px;
     line-height: 1.2;
     color: white;
@@ -175,7 +175,7 @@ nav p{
     justify-content: center;
     height: 260px;
     width: 360px;
-    background-image: url("img_kids.svg");
+    background-image: url("./img/offer_kids.svg");
     font-size: 16px;
     line-height: 1.2;
     color: white;
@@ -188,7 +188,7 @@ nav p{
     justify-content: center;
     height: 180px;
     width: 1140px;
-    background-image: url("img_accesories.svg");
+    background-image: url("./img/offer_accesories.svg");
     font-size: 16px;
     line-height: 1.2;
     color: white;
@@ -409,7 +409,7 @@ nav p{
 .subscribe__beack{
     height: 448px;
     max-width: 767vw;
-    background-image: url("img_subsribe.jpg");
+    background-image: url("./img/beack_subsribe.jpg");
     background-position:center;
     background-repeat: no-repeat;
     margin: 0 auto;
