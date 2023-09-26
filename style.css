@@ -9,7 +9,10 @@
 
 body{
     scroll-behavior: smooth;
-
+    font-family: Lato, serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
 }
 
 img{
@@ -65,7 +68,6 @@ nav p{
     justify-content: center;
     align-items: center;
     color: #FFF;
-    font-family: Lato, serif;
     font-size: 12px;
     font-weight: 400;
     width: 19px;
@@ -85,7 +87,50 @@ nav p{
     align-items: center;
     gap: 64px;
     margin-bottom: 60px;
+    position: relative;
 }
+
+.menu-bar{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 232px;
+    height: 634px;
+    background-color: white;
+    padding: 32px;
+}
+
+.hidden{
+    display: none;
+}
+
+.menu-bar__title{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.menu-bar__subtitle{
+    color: #F16D7F;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-left: 20px;
+    color: #6F6E6E;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
 
 .title_main{
     display: flex;
@@ -100,28 +145,17 @@ nav p{
 
 .title_main_text h1{
     color: #222;
-    font-family: Lato, serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }
 .title_main_text h2{
     color: #222;
-    font-family: Lato, serif;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .color_text{
     color: #F16D7F;
-    font-family: Lato, serif;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 
@@ -197,11 +231,7 @@ nav p{
 
 .offer h3{
     color: #F16D7F;
-    font-family: Lato, serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .text_items{
@@ -217,13 +247,11 @@ nav p{
 
 .title_items{
     color: #222;
-    font-family: Lato, serif;
     font-size: 30px;
 }
 
 .p_items{
     color: #9F9F9F;
-    font-family: Lato, serif;
     font-size: 14px;
     margin-bottom: 50px;
 }
@@ -294,7 +322,6 @@ nav p{
 
 .add__cart button p {
     color: #FFF;
-    font-family: Lato, serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -305,14 +332,12 @@ nav p{
 
 .item h4{
     color: #000;
-    font-family: Lato, serif;
     font-size: 13px;
     margin-bottom: 12px;
 }
 
 .item p{
     color: #5D5D5D;
-    font-family: Lato, serif;
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 18px;
@@ -320,7 +345,6 @@ nav p{
 
 .item h5{
     color: #F16D7F;
-    font-family: Lato, serif;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -351,7 +375,6 @@ nav p{
 
 .butn_all_profuct span{
     color: #F26376;
-    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -383,22 +406,16 @@ nav p{
 
 .others__card__title{
     color: #FBFBFB;
-    font-family: Lato, serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-bottom: 16px;
 }
 
 .others__card__p{
     color: #FBFBFB;
     text-align: center;
-    font-family: Lato, serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
 }
 
 .subscribe{
@@ -434,7 +451,6 @@ nav p{
 .subscribe__content__feedback p{
     text-align: center;
     color: #222224;
-    font-family: Lato, serif;
     font-size: 20px;
     font-weight: 400;
 }
@@ -446,18 +462,14 @@ nav p{
 .subscribe__content__subscribe__title{
     color: #222224;
     text-align: center;
-    font-family: Lato, serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 167.2%;
 }
 
 .subscribe__content__subscribe__p{
     color: #222224;
-    font-family: Lato, serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 167.2%;
     margin-bottom: 32px;
@@ -483,11 +495,8 @@ nav p{
     height: 50px;
     color: #FFF;
     text-align: center;
-    font-family: Lato, serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     background-color: #F16D7F;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -509,11 +518,8 @@ nav p{
 
 .brend{
     color: #FBFBFB;
-    font-family: Lato, serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .links__icons{
